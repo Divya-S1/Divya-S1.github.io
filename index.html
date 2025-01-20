@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>John Doe</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm John, a passionate web developer with experience in building modern web applications. I specialize in front-end development and enjoy working with JavaScript, HTML, CSS, and React.js.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>React.js, Node.js</li>
+            <li>Git, GitHub</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section class="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Front-End Developer | XYZ Corp.</h3>
+            <p>January 2023 - Present</p>
+            <ul>
+                <li>Developed and maintained the company's website using React.js and CSS</li>
+                <li>Collaborated with UX/UI designers to implement responsive designs</li>
+                <li>Optimized web performance and reduced page load time by 30%</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Junior Web Developer | ABC Inc.</h3>
+            <p>June 2021 - December 2022</p>
+            <ul>
+                <li>Built web pages using HTML, CSS, and JavaScript</li>
+                <li>Worked with back-end developers to integrate APIs</li>
+                <li>Implemented modern design practices to enhance user experience</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <button id="contactBtn">Get in Touch</button>
+    </section>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Contact Me</h3>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
